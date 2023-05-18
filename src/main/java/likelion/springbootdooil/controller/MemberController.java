@@ -70,7 +70,7 @@ public class MemberController {
     @PostMapping("new")
     public String create(Member member) {
         memberService.save(member);
-        return "redirect:/";
+        return "redirect:/members";
     }
 
     /*

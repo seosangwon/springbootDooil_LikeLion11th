@@ -14,5 +14,11 @@ public class ViewController {
         return "story";
 
     }
+    @GetMapping("home")
+    public String home(){
+        return "home";
+
+    }
+
 
 }
